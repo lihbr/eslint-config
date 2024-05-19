@@ -1,0 +1,57 @@
+{
+	"name": "@lihbr/eslint-config",
+	"type": "module",
+	"version": "0.0.1",
+	"packageManager": "pnpm@9.1.1",
+	"description": "Lucie's ESLint config preset",
+	"author": "Lucie Haberer <hello@lihbr.com> (https://lihbr.com)",
+	"license": "MIT",
+	"homepage": "https://github.com/lihbr/eslint-config",
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.com/lihbr/eslint-config.git"
+	},
+	"keywords": [
+		"eslint-config"
+	],
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"import": "./index.js"
+		}
+	},
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.d.ts",
+	"typesVersions": {
+		"*": {
+			"*": [
+				"./index.d.ts"
+			]
+		}
+	},
+	"files": [
+		"index.d.ts",
+		"index.js"
+	],
+	"scripts": {
+		"build": "exit 0",
+		"dev": "exit 0",
+		"release": "npm run test && bumpp",
+		"release:dry": "npx changelogithub --dry",
+		"lint": "eslint .",
+		"typecheck": "tsc --noEmit",
+		"unit": "exit 0",
+		"test": "pnpm lint && pnpm typecheck && pnpm unit && pnpm build"
+	},
+	"dependencies": {
+		"@antfu/eslint-config": "^2.18.1",
+		"defu": "^6.1.4"
+	},
+	"devDependencies": {
+		"bumpp": "^9.4.1",
+		"eslint": "^9.3.0",
+		"typescript": "^5.4.5"
+	}
+}
