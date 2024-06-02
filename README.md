@@ -20,7 +20,7 @@ Create `eslint.config.js` in your project root:
 
 ```javascript
 // @ts-check
-import lihbr from "./index.js"
+import lihbr from "@lihbr/eslint-config"
 
 export default lihbr()
 ```
