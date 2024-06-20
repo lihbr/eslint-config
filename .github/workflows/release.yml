@@ -42,7 +42,8 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.RELEASE_NODE_AUTH_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
 
-      - run: |
+      - name: Publish GitHub release
+        run: |
           if [[ $GITHUB_REF_NAME == *-* ]]; then
             npx changelogithub --prerelease
           else
