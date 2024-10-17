@@ -80,4 +80,4 @@ Whether you're helping me fix bugs, improve the docs, or spread the word, I'd lo
 [conventional-commits-src]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?style=flat&colorA=131010&colorB=f27602&logo=conventionalcommits&logoColor=faf1f1
 [conventional-commits-href]: https://conventionalcommits.org
 [license-src]: https://img.shields.io/github/license/lihbr/eslint-config.svg?style=flat&colorA=131010&colorB=759f53
-[license-href]: https://github.com/lihbr/eslint-config/blob/main/LICENSE
+[license-href]: https://github.com/lihbr/eslint-config/blob/master/LICENSE
