@@ -2,7 +2,6 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Bundle][bundle-src]][bundle-href]
 [![Conventional Commits][conventional-commits-src]][conventional-commits-href]
 [![License][license-src]][license-href]
 
@@ -75,8 +74,6 @@ Whether you're helping me fix bugs, improve the docs, or spread the word, I'd lo
 [npm-version-href]: https://npmjs.com/package/@lihbr/eslint-config
 [npm-downloads-src]: https://img.shields.io/npm/dm/@lihbr/eslint-config?style=flat&colorA=131010&colorB=a54a5e
 [npm-downloads-href]: https://npmjs.com/package/@lihbr/eslint-config
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/@lihbr/eslint-config?style=flat&colorA=131010&colorB=e84311&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=@lihbr/eslint-config
 [conventional-commits-src]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?style=flat&colorA=131010&colorB=f27602&logo=conventionalcommits&logoColor=faf1f1
 [conventional-commits-href]: https://conventionalcommits.org
 [license-src]: https://img.shields.io/github/license/lihbr/eslint-config.svg?style=flat&colorA=131010&colorB=759f53
