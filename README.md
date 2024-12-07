@@ -12,7 +12,7 @@ Lucie's ESLint config preset ***powered by and built on top of*** [Anthony's ESL
 Install dependencies:
 
 ```bash
-pnpm install --dev eslint @lihbr/eslint-config
+pnpm install -D eslint @lihbr/eslint-config
 ```
 
 Create `eslint.config.js` in your project root:
